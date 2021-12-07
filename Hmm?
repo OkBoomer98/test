@@ -40,5 +40,8 @@ public class Example : MonoBehaviour
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
-    }
-}
+       
+ }     settimer{attacktime} 15 
+}         touching{entity}=starttimer{attacktime}
+ {     if player is touching entity{skinwalker}and{attacktime}=0 then take damage number between [1and5]
+ 
